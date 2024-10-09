@@ -37,7 +37,7 @@ namespace DatabindingExample
             {
                 lastName = value;
                 OnPropertyChanged(nameof(lastName));
-                OnPropertyChanged(nameof(FullName));
+                OnPropertyChanged("FullName");
             }
         }
 
